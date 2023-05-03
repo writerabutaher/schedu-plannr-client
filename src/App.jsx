@@ -4,29 +4,7 @@ import { router } from "./routes/router";
 
 function App() {
 
-  // const [dark, setDark] = useState(false);
 
-  // const handleDark = () => {
-  //   setDark(!dark);
-  //   localStorage.setItem("darkMode", String(!dark));
-  // };
-
-  // useEffect(() => {
-  //   const localDark = JSON.parse(localStorage.getItem("darkMode") || "{}");
-  //   setDark(localDark);
-  // }, []);
-
-  // useEffect(() => {
-  //   if (dark) {
-  //     document
-  //       .querySelector("html")
-  //       .setAttribute("data-theme", "dark");
-  //   } else {
-  //     document
-  //       .querySelector("html")
-  //       .setAttribute("data-theme", "mytheme");
-  //   }
-  // }, [dark]);
 
   return (
     // <div onClick={handleDark} className="inline-block cursor-pointer transition-all">

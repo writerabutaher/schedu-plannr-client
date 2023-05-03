@@ -1,0 +1,118 @@
+.ul-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #0098da;
+    margin: auto;
+    border-radius: 50px;
+    position: relative;
+    width: 492px;
+    text-align: center;
+}
+
+
+.li-style {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+
+.li-style:hover {
+    color: white;
+}
+
+.link-style {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.noo-hover:hover {
+    background-color: transparent;
+}
+
+.link-style:hover {
+    color: white;
+}
+
+.link-style:focus {
+    background-color: transparent;
+}
+
+.animation:hover {
+    color: white;
+}
+
+.animation {
+    position: absolute;
+    height: 80%;
+    top: 0;
+    z-index: 0;
+    border-radius: 25px;
+    background-color: #0098da;
+    transition: all .5s ease 0s;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+
+.li-style:nth-child(1) {
+    width: 120px;
+}
+
+nav.start-home,
+.li-style:nth-child(1):hover~.animation {
+    width: 120px;
+    left: 5px;
+    color: #0098da;
+}
+
+
+.li-style:nth-child(2) {
+    width: 120px;
+}
+
+.start-about,
+.li-style:nth-child(2):hover~.animation {
+    width: 120px;
+    left: 125px;
+}
+
+.li-style:nth-child(3) {
+    width: 120px;
+}
+
+.start-product,
+.li-style:nth-child(3):hover~.animation {
+    width: 120px;
+    left: 245px;
+}
+
+.start-product,
+.li-style:nth-child(3):hover {
+    color: white;
+}
+
+.li-style:nth-child(4) {
+    width: 120px;
+}
+
+.start-another,
+.li-style:nth-child(4):hover~.animation {
+    width: 120px;
+    left: 365px;
+}
+
+.li-style:nth-child(5) {
+    width: 120px;
+}
+
+.start-another,
+.li-style:nth-child(5):hover~.animation {
+    width: 120px;
+    left: 485px;
+}
